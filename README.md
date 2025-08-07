@@ -9,7 +9,6 @@
 
 **🚀 Scan any Rubik's cube with your webcam and get the optimal solution instantly!**
 
-[Demo Video](#) | [Features](#features) | [Installation](#installation) | [Usage](#usage)
 
 </div>
 
@@ -68,22 +67,6 @@
 - Webcam/Camera
 - Good lighting conditions
 
-### Quick Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/rubiks-cube-solver.git
-cd rubiks-cube-solver
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run calibration (one-time setup)
-python3 run_calibration.py
-
-# Start solving cubes!
-./run_solver.sh
-```
 
 ### Dependencies
 ```
@@ -190,51 +173,6 @@ def _hsv_distance(self, hsv1, hsv2):
 
 ---
 
-## 🎨 Screenshots
-
-### Scanning Process
-![Scanning](https://via.placeholder.com/600x300?text=Scanning+Process)
-
-### 2D Visualization  
-![2D View](https://via.placeholder.com/600x300?text=2D+Cube+Visualization)
-
-### Solution Output
-![Solution](https://via.placeholder.com/600x300?text=Solution+Output)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **🐛 Bug Reports** - Found an issue? Open an issue!
-2. **✨ Feature Requests** - Have an idea? Let's discuss it!
-3. **🔧 Code Contributions** - Submit a pull request!
-
-### Development Setup
-```bash
-git clone https://github.com/yourusername/rubiks-cube-solver.git
-cd rubiks-cube-solver
-pip install -r requirements.txt
-python3 -m pytest tests/  # Run tests
-```
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **Herbert Kociemba** - For the incredible two-phase algorithm
-- **OpenCV Community** - For computer vision tools
-- **Python Community** - For the amazing ecosystem
-
----
-
 ## 🎯 Future Enhancements
 
 - [ ] **Mobile App** - iOS/Android compatibility
@@ -254,6 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [Request Feature](https://github.com/yourusername/rubiks-cube-solver/issues) · 
 [Contribute](https://github.com/yourusername/rubiks-cube-solver/pulls)
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Ghayda Tebessi**
 
 </div>
